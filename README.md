@@ -13,3 +13,12 @@ npm install -g reqwise
 ```bash
 reqwise [METHOD] <url> [--flags]
 ```
+
+# Examples:
+
+```bash
+reqwise https://api.example.com --json
+reqwise POST https://api.example.com --body '{ "name": "Noah" }' --json
+reqwise POST https://api.com --body @data.json --json
+reqwise https://api.com/file.zip --save file.zip
+```
