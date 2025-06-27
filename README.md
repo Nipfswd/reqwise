@@ -22,3 +22,18 @@ reqwise POST https://api.example.com --body '{ "name": "Noah" }' --json
 reqwise POST https://api.com --body @data.json --json
 reqwise https://api.com/file.zip --save file.zip
 ```
+
+#  Flags
+```--body```: JSON string or @file.json
+
+--header: Custom header ("Key:Value")
+
+--json: Output parsed JSON
+
+--text: Output raw text
+
+--timeout: Timeout in ms (default: 5000)
+
+--save: Write response to file
+
+--help: Show CLI usage
