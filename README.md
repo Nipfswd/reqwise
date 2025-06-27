@@ -37,4 +37,7 @@ reqwise https://api.com/file.zip --save file.zip
 ```--save```: Write response to file
 
 ```--help```: Show CLI usage
+
+# Package
+- Find the package at https://www.npmjs.com/package/reqwise
 ## Built with ♥ by Noah
