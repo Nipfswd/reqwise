@@ -37,4 +37,4 @@ reqwise https://api.com/file.zip --save file.zip
 ```--save```: Write response to file
 
 ```--help```: Show CLI usage
-## Built with love and retries ♥
+## Built with ♥ by Noah
