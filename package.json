@@ -1,0 +1,11 @@
+{
+  "name": "reqwise",
+  "version": "1.0.1",
+  "description": "A smart HTTP request toolkit for Node.js and the CLI",
+  "bin": {
+    "reqwise": "./bin/reqwise.js"
+  },
+  "keywords": ["http", "cli", "fetch", "axios", "request", "node"],
+  "author": "Noah",
+  "license": "MIT"
+}
